@@ -119,12 +119,26 @@ font-size: 20px;
   border-radius: 4px;
 }
 
+.btn-grey{
+  background-color: #393E46;
+  color: white;
+font-family: 'Varela', sans-serif;
+font-size: 20px;
+  padding: 10px 50px;
+  border-radius: 4px;
+}
+
 .btn-orange:hover{
   background-color: #F96D00;
   opacity: 0.5;
   color: white;
 }
 
+.btn-grey:hover{
+  background-color: #393E46;
+  opacity: 0.5;
+  color: white;
+}
 /* mediaqueries */
 
 @media (max-width: 960px) {
