@@ -1,0 +1,147 @@
+/* Fonts and colors */
+
+body {
+	background-color: #F2F2F2 ;
+	font-family:'Open Sans Condensed', sans-serif; 
+	font-size: 16px;
+	color: #393E46;
+	line-height: 1;
+}
+
+h1, h2, h3 {
+	color: #393E46;
+	font-family: 'Varela', sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+	color: #F96D00 ;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+a {
+	color: #F96D00;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+/* images */
+.img-small {
+	width: 150px;
+}
+
+.img-medium {
+	width: 200px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.img-border {
+	 border: 2px solid #393E46 ;
+	 box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+/* advanced selectors*/
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+	background: white;                          /* White background */
+	padding: 30px;                              /* Internal space */
+	margin: 20px;
+	border-radius: 4px;                         /* Small radius */
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+	border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+}
+
+.card-thin {
+	padding: 0px;                              /* Internal space */
+	margin: 20px;
+}
+
+.card-thin a {
+	color: #393E46;
+	text-decoration: none;
+}
+
+.card:first-child p {
+	padding-bottom: 30px;                              /* Internal space */
+}
+
+.card:first-child ul {
+	padding-top: 30px;
+}
+
+.text-red {
+	color: red;
+}
+
+.text-little {
+	font-size: 12px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.btn-orange{
+  background-color: #F96D00;
+  color: white;
+font-family: 'Varela', sans-serif;
+font-size: 20px;
+  padding: 10px 50px;
+  border-radius: 4px;
+}
+
+.btn-orange:hover{
+  background-color: #F96D00;
+  opacity: 0.5;
+  color: white;
+}
+
+/* mediaqueries */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
